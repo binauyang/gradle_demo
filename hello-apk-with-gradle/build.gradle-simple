@@ -14,7 +14,10 @@ android {
 
     compileSdkVersion 19
     buildToolsVersion "23.0.1"
-
+  
+    lintOptions {
+        abortOnError false
+    }
 
     sourceSets {
         main {
